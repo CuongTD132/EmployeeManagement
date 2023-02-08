@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const LoginPage = () => {
+const CheckStatus = () => {
   // React States
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -56,21 +56,18 @@ const LoginPage = () => {
     <div className="form">
       <form onSubmit={handleSubmit}>
         <div className="input-container">
-          <label className='name'>Username </label>
+          <label className='name'>CV ID </label>
           <input type="text" className='input' name="uname" required />
           {renderErrorMessage("uname")}
         </div>
         <div className="input-container">
-          <label className='name'>Password </label>
+          <label className='name'>Phone Number </label>
           <input type="password" className='input' name="pass" required />
           {renderErrorMessage("pass")}
         </div>
         <div className="button-container">
-          <button id="login">Log in</button>
-        </div>
-        <div id="register" className="button-container">
-          <label>Want to become a part of us? </label>
-          <a id="link-register" href="./register">Join here!</a>
+          <a class='button1' href="./login">Back</a>
+          <a class='button2' >Check</a>
         </div>
       </form>
     </div>
@@ -79,14 +76,14 @@ const LoginPage = () => {
   return (
     <div className="app">
       <div className="login-form">
-        <div id="title" className="title">Sign In</div>
+        <div id="title" className="title">Check Status</div>
         {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
       </div>
     </div>
   );
 };
 
-export default LoginPage;
+export default CheckStatus;
 
 
 
