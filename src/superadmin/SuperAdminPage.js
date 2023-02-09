@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const SuperAdminPage = () => {
     return(
-        <p>Loading...</p>
+        <p>Loading....</p>
     );
 };
 
