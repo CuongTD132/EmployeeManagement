@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoginPage from './login/LoginPage';
 import RegisterPage from './apply/RegisterPage';
 import CheckStatus from './checkStatus/CheckStatus';
-import SuperAdminPage from './SuperAdminPage';
+import SuperAdminPage from './superadmin/SuperAdminPage';
 
 import "./App.css";
 
