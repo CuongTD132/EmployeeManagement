@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LoginPage from './LoginPage';
-import RegisterPage from './RegisterPage';
-import CheckStatus from './CheckStatus';
+import LoginPage from './login/LoginPage';
+import RegisterPage from './apply/RegisterPage';
+import CheckStatus from './checkStatus/CheckStatus';
 import SuperAdminPage from './SuperAdminPage';
 
 import "./App.css";
