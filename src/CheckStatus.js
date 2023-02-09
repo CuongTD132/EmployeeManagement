@@ -66,7 +66,7 @@ const CheckStatus = () => {
           {renderErrorMessage("pass")}
         </div>
         <div className="button-container">
-          <a class='button1' href="./login">Back</a>
+          <a class='button1' href="./">Back</a>
           <a class='button2' >Check</a>
         </div>
       </form>

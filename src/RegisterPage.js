@@ -87,7 +87,7 @@ const RegisterPage = () => {
 
         </div>
         <div className="button-container">
-          <a class='button1' href="./login">Cancel</a>
+          <a class='button1' href="./">Cancel</a>
           <a class='button2' >Submit</a>
         </div>
       </form>

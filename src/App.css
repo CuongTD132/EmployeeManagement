@@ -71,7 +71,7 @@ a[id="link-register"] {
 }
 
 .title {
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 30px;
   font-weight: 700;
 }
@@ -125,11 +125,11 @@ a[id="link-register"] {
 }
 
 .name {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .input {
-  padding: 10px;
+  padding: 5px 5px 5px 10px ;
 
-  font-size: 20px;
+  font-size: 15px;
 }
